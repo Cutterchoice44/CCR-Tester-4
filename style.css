@@ -1,0 +1,10 @@
+
+@media (max-width: 768px) {
+  .desktop-only { display: none !important; }
+  .mobile-only { display: block !important; }
+  header .title h1 { font-size: 1.8rem; }
+  .mixcloud.no-mobile { display: none !important; }
+}
+@media (min-width: 769px) {
+  .mobile-only { display: none !important; }
+}
